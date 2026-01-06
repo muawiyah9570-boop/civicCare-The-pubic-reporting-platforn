@@ -1,0 +1,8 @@
+
+{
+  "name": "CivicCare - Public Reporting Platform",
+  "description": "A comprehensive platform for citizens to report and track public infrastructure issues like road damage, garbage, and utility leaks, with dedicated dashboards for administrators and authorities.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

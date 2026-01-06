@@ -1,26 +1,20 @@
-# civicCare-The-pubic-reporting-platforn
-CivicCare is a community-driven reporting platform that empowers citizens to submit, track, and resolve public issues — from potholes and streetlight outages to waste management and safety concerns. Built with transparency, collaboration, and civic engagement at its core, civicCare bridges the gap between residents and local authorities.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Key Features
+# Run and deploy your AI Studio app
 
-📍 Issue Submission — Users can report problems with details, photos, and location.
+This contains everything you need to run your app locally.
 
-🗺️ Interactive Map — View and track reports on a live map interface.
+View your app in AI Studio: https://ai.studio/apps/temp/1
 
-🔄 Status Tracking — Follow the progress of reported issues from submission to resolution.
+## Run Locally
 
-🛠️ Admin Dashboard — Municipal users can review, assign, and update cases.
+**Prerequisites:**  Node.js
 
-🤝 Community Feedback — Add comments, upvotes, and share updates with the community.
 
-🔔 Notifications — Get alerts on status changes or local reports.
-
-📦 Built With
-
-.Frontend: React / Vue / Angular
-
-.Backend: Node.js / Django / Laravel
-
-.Database: PostgreSQL / MongoDB
-
-.Maps: Leaflet / Google Maps API
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
